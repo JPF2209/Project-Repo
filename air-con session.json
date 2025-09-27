@@ -1,0 +1,544 @@
+{
+  "id" : "68d62822085dcb00075137f8",
+  "modified" : 1758874449,
+  "name" : "Air-Con Session",
+  "dataDefinition" : {
+    "id" : "68d6277e085dcb00075137f7",
+    "modified" : 1758874412,
+    "name" : "Air-Con",
+    "schema" : {
+      "metadata" : {
+        "type" : "json"
+      },
+      "type" : "object",
+      "properties" : {
+        "Air-Con4" : {
+          "properties" : {
+            "change_temperature" : {
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "integer",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  }
+                }
+              },
+              "type" : "object",
+              "metadata" : {
+                "position" : "change_temperature",
+                "description" : ""
+              }
+            },
+            "current_data" : {
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "double",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  }
+                },
+                "timestamp" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "format" : "milliseconds",
+                    "position" : "timestamp",
+                    "name" : "timestamp_property",
+                    "description" : "",
+                    "type" : "timestamp"
+                  }
+                }
+              },
+              "type" : "object",
+              "metadata" : {
+                "position" : "current_data",
+                "description" : ""
+              }
+            }
+          },
+          "type" : "object",
+          "metadata" : {
+            "position" : "Air-Con4",
+            "description" : ""
+          }
+        },
+        "Air-Con3" : {
+          "properties" : {
+            "change_temperature" : {
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "integer",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  }
+                }
+              },
+              "type" : "object",
+              "metadata" : {
+                "position" : "change_temperature",
+                "description" : ""
+              }
+            },
+            "current_data" : {
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "double",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  }
+                },
+                "timestamp" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "format" : "milliseconds",
+                    "position" : "timestamp",
+                    "name" : "timestamp_property",
+                    "description" : "",
+                    "type" : "timestamp"
+                  }
+                }
+              },
+              "type" : "object",
+              "metadata" : {
+                "position" : "current_data",
+                "description" : ""
+              }
+            }
+          },
+          "type" : "object",
+          "metadata" : {
+            "position" : "Air-Con3",
+            "description" : ""
+          }
+        },
+        "Air-Con2" : {
+          "properties" : {
+            "change_temperature" : {
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "integer",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  }
+                }
+              },
+              "type" : "object",
+              "metadata" : {
+                "position" : "change_temperature",
+                "description" : ""
+              }
+            },
+            "current_data" : {
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "double",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  }
+                },
+                "timestamp" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "format" : "milliseconds",
+                    "position" : "timestamp",
+                    "name" : "timestamp_property",
+                    "description" : "",
+                    "type" : "timestamp"
+                  }
+                }
+              },
+              "type" : "object",
+              "metadata" : {
+                "position" : "current_data",
+                "description" : ""
+              }
+            }
+          },
+          "type" : "object",
+          "metadata" : {
+            "position" : "Air-Con2",
+            "description" : ""
+          }
+        },
+        "Air-Con1" : {
+          "properties" : {
+            "change_temperature" : {
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "integer",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  }
+                }
+              },
+              "type" : "object",
+              "metadata" : {
+                "position" : "change_temperature",
+                "description" : ""
+              }
+            },
+            "current_data" : {
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "double",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  }
+                },
+                "timestamp" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "format" : "milliseconds",
+                    "position" : "timestamp",
+                    "name" : "timestamp_property",
+                    "description" : "",
+                    "type" : "timestamp"
+                  }
+                }
+              },
+              "type" : "object",
+              "metadata" : {
+                "position" : "current_data",
+                "description" : ""
+              }
+            }
+          },
+          "type" : "object",
+          "metadata" : {
+            "position" : "Air-Con1",
+            "description" : ""
+          }
+        }
+      },
+      "schemaKey" : "http://json-schema.org/draft-04/schema#"
+    }
+  },
+  "timer" : {
+    "type" : "interval",
+    "metric" : "seconds",
+    "value" : 30
+  },
+  "ticksNumber" : 0,
+  "isReplayLooped" : false,
+  "devices" : [ ],
+  "generator" : {
+    "type" : "schema_based",
+    "schema" : {
+      "metadata" : {
+        "type" : "json"
+      },
+      "type" : "object",
+      "properties" : {
+        "Air-Con4" : {
+          "type" : "object",
+          "metadata" : {
+            "position" : "Air-Con4",
+            "description" : ""
+          },
+          "properties" : {
+            "change_temperature" : {
+              "type" : "object",
+              "metadata" : {
+                "position" : "change_temperature",
+                "description" : ""
+              },
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "integer",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  },
+                  "rule" : {
+                    "type" : "literal_integer",
+                    "value" : 19
+                  }
+                }
+              }
+            },
+            "current_data" : {
+              "type" : "object",
+              "metadata" : {
+                "position" : "current_data",
+                "description" : ""
+              },
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "double",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  },
+                  "rule" : {
+                    "type" : "random_double",
+                    "min" : -15.0,
+                    "max" : 50.0
+                  }
+                },
+                "timestamp" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "format" : "milliseconds",
+                    "position" : "timestamp",
+                    "name" : "timestamp_property",
+                    "description" : "",
+                    "type" : "timestamp"
+                  },
+                  "rule" : {
+                    "type" : "current_time",
+                    "metric" : "milliseconds",
+                    "shift" : 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Air-Con3" : {
+          "type" : "object",
+          "metadata" : {
+            "position" : "Air-Con3",
+            "description" : ""
+          },
+          "properties" : {
+            "change_temperature" : {
+              "type" : "object",
+              "metadata" : {
+                "position" : "change_temperature",
+                "description" : ""
+              },
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "integer",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  },
+                  "rule" : {
+                    "type" : "literal_integer",
+                    "value" : 19
+                  }
+                }
+              }
+            },
+            "current_data" : {
+              "type" : "object",
+              "metadata" : {
+                "position" : "current_data",
+                "description" : ""
+              },
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "double",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  },
+                  "rule" : {
+                    "type" : "random_double",
+                    "min" : -15.0,
+                    "max" : 50.0
+                  }
+                },
+                "timestamp" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "format" : "milliseconds",
+                    "position" : "timestamp",
+                    "name" : "timestamp_property",
+                    "description" : "",
+                    "type" : "timestamp"
+                  },
+                  "rule" : {
+                    "type" : "current_time",
+                    "metric" : "milliseconds",
+                    "shift" : 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Air-Con2" : {
+          "type" : "object",
+          "metadata" : {
+            "position" : "Air-Con2",
+            "description" : ""
+          },
+          "properties" : {
+            "change_temperature" : {
+              "type" : "object",
+              "metadata" : {
+                "position" : "change_temperature",
+                "description" : ""
+              },
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "integer",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  },
+                  "rule" : {
+                    "type" : "literal_integer",
+                    "value" : 19
+                  }
+                }
+              }
+            },
+            "current_data" : {
+              "type" : "object",
+              "metadata" : {
+                "position" : "current_data",
+                "description" : ""
+              },
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "double",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  },
+                  "rule" : {
+                    "type" : "random_double",
+                    "min" : -15.0,
+                    "max" : 50.0
+                  }
+                },
+                "timestamp" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "format" : "milliseconds",
+                    "position" : "timestamp",
+                    "name" : "timestamp_property",
+                    "description" : "",
+                    "type" : "timestamp"
+                  },
+                  "rule" : {
+                    "type" : "current_time",
+                    "metric" : "milliseconds",
+                    "shift" : 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Air-Con1" : {
+          "type" : "object",
+          "metadata" : {
+            "position" : "Air-Con1",
+            "description" : ""
+          },
+          "properties" : {
+            "change_temperature" : {
+              "type" : "object",
+              "metadata" : {
+                "position" : "change_temperature",
+                "description" : ""
+              },
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "integer",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  },
+                  "rule" : {
+                    "type" : "literal_integer",
+                    "value" : 19
+                  }
+                }
+              }
+            },
+            "current_data" : {
+              "type" : "object",
+              "metadata" : {
+                "position" : "current_data",
+                "description" : ""
+              },
+              "properties" : {
+                "temperature" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "type" : "double",
+                    "position" : "temperature",
+                    "name" : "temperature_property",
+                    "description" : ""
+                  },
+                  "rule" : {
+                    "type" : "random_double",
+                    "min" : -15.0,
+                    "max" : 50.0
+                  }
+                },
+                "timestamp" : {
+                  "type" : "number",
+                  "metadata" : {
+                    "format" : "milliseconds",
+                    "position" : "timestamp",
+                    "name" : "timestamp_property",
+                    "description" : "",
+                    "type" : "timestamp"
+                  },
+                  "rule" : {
+                    "type" : "current_time",
+                    "metric" : "milliseconds",
+                    "shift" : 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "schemaKey" : "http://json-schema.org/draft-04/schema#"
+    }
+  },
+  "targetSystem" : {
+    "id" : "68d6232204f2a0b9d8377e80",
+    "modified" : 1758865719,
+    "name" : "Firebase",
+    "type" : "rest_endpoint",
+    "url" : "https://sit314-aircon-default-rtdb.firebaseio.com/.json",
+    "method" : "put"
+  },
+  "replayLooped" : false
+}

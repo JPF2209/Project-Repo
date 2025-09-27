@@ -1,0 +1,569 @@
+[
+    {
+        "id": "147f361498fbc825",
+        "type": "tab",
+        "label": "Module 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a02a0ef8e07b83cf",
+        "type": "mqtt-broker",
+        "name": "Hive MQTT",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9b9587f32630d8e2",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "59b939da259ad33f",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "9b9587f32630d8e2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "66ac32b5a8d0eb50",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "eacc38366cbe972a",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "byal56wlco84rjwta278z38jfkfzjprx1nbjlim9lmx7jcn3ljb3whqr5cxp326x",
+        "server": "nodered03.remote-red.com",
+        "region": "us"
+    },
+    {
+        "id": "f2d89c2d5210f591",
+        "type": "firebase config",
+        "firebaseurl": "sit314-aircon-default-rtdb",
+        "loginType": "none"
+    },
+    {
+        "id": "75e2fa6d20b0488f",
+        "type": "remote-config",
+        "name": "SIT314",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "1o49u342724dqhl8i62jwwroptq5gt2a3pb7tsolqh40r3fb4u248fdoqezy1e1b",
+        "server": "nodered05.remote-red.com",
+        "region": "sg"
+    },
+    {
+        "id": "af8775bd5c2815d5",
+        "type": "firebase auth",
+        "z": "147f361498fbc825",
+        "name": "Start Firebase",
+        "firebaseconfig": "f2d89c2d5210f591",
+        "x": 170,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8c657e41a628117",
+        "type": "firebase.once",
+        "z": "147f361498fbc825",
+        "name": "Get Temp",
+        "firebaseconfig": "f2d89c2d5210f591",
+        "childpath": "msg.childpath",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 660,
+        "y": 260,
+        "wires": [
+            [
+                "d0d651ce44b4453b"
+            ]
+        ]
+    },
+    {
+        "id": "2e51702a30a17d1e",
+        "type": "function",
+        "z": "147f361498fbc825",
+        "name": "Set Location",
+        "func": "var set_id = global.get(\"ID\");\nmsg.childpath = set_id + \"/current_data/temperature\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 260,
+        "wires": [
+            [
+                "a8c657e41a628117"
+            ]
+        ]
+    },
+    {
+        "id": "3a2b23507c105c98",
+        "type": "inject",
+        "z": "147f361498fbc825",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "30",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 260,
+        "wires": [
+            [
+                "2e51702a30a17d1e"
+            ]
+        ]
+    },
+    {
+        "id": "f078048502e238f1",
+        "type": "remote-access",
+        "z": "147f361498fbc825",
+        "confignode": "75e2fa6d20b0488f",
+        "name": "Connect Node",
+        "verbose": 0,
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d0d651ce44b4453b",
+        "type": "ui_gauge",
+        "z": "147f361498fbc825",
+        "name": "",
+        "group": "59b939da259ad33f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "Degrees (Celsius)",
+        "format": "{{value}}",
+        "min": "-15",
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1150,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "dd20774823f86f14",
+        "type": "ui_button",
+        "z": "147f361498fbc825",
+        "name": "",
+        "group": "59b939da259ad33f",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 540,
+        "wires": [
+            [
+                "43c2ee0ca5f1b539"
+            ]
+        ]
+    },
+    {
+        "id": "a6d7f4ba98018e22",
+        "type": "function",
+        "z": "147f361498fbc825",
+        "name": "Set Temp",
+        "func": "global.set(\"Numeric_Value\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c315a41663ad7bc9",
+        "type": "ui_text_input",
+        "z": "147f361498fbc825",
+        "name": "Change Temperature",
+        "label": "Change Temperature",
+        "tooltip": "",
+        "group": "59b939da259ad33f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 180,
+        "y": 640,
+        "wires": [
+            [
+                "a6d7f4ba98018e22"
+            ]
+        ]
+    },
+    {
+        "id": "43c2ee0ca5f1b539",
+        "type": "function",
+        "z": "147f361498fbc825",
+        "name": "Check Function",
+        "func": "// Check if the value exists and is a primitive type (string or number).\nvar numericValue = global.get(\"Numeric_Value\");\n\n// Check if the value is a string and contains only digits.\nif (typeof numericValue === 'string' && /^\\d+$/.test(numericValue)) {\n    // If it's a valid integer string, parse it.\n    const parsedInt = parseInt(numericValue, 10);\n    msg.payload = parsedInt;\n} else {\n    // If it's not a string or contains non-numeric characters, fail.\n    msg.payload = \"Test Failed\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 540,
+        "wires": [
+            [
+                "8367f4571d53030c"
+            ]
+        ]
+    },
+    {
+        "id": "8367f4571d53030c",
+        "type": "switch",
+        "z": "147f361498fbc825",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "fail",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 540,
+        "wires": [
+            [
+                "b491e7a7ac12d4e5"
+            ],
+            [
+                "4d0d3d282c35ec78"
+            ]
+        ]
+    },
+    {
+        "id": "b491e7a7ac12d4e5",
+        "type": "ui_text",
+        "z": "147f361498fbc825",
+        "group": "59b939da259ad33f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Status",
+        "label": "{{msg.payload}}",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 690,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "4c089c3aac7125d4",
+        "type": "firebase modify",
+        "z": "147f361498fbc825",
+        "name": "Send Temp",
+        "firebaseconfig": "f2d89c2d5210f591",
+        "childpath": "msg.childpath",
+        "method": "update",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 1070,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d0d3d282c35ec78",
+        "type": "function",
+        "z": "147f361498fbc825",
+        "name": "Set Data",
+        "func": "var set_id = global.get(\"ID\");\nconst temperature = msg.payload;\n\n// Create the object to be sent to Firebase\nmsg.payload = {\n    change_temperature: {\n        temperature: temperature\n    }\n};\n\n// Use msg.topic for the Firebase path\nmsg.topic = set_id;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 580,
+        "wires": [
+            [
+                "598b88404632f68f"
+            ]
+        ]
+    },
+    {
+        "id": "66ad6e8e2df16473",
+        "type": "ui_text_input",
+        "z": "147f361498fbc825",
+        "name": "Type ID",
+        "label": "Type ID",
+        "tooltip": "",
+        "group": "59b939da259ad33f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 140,
+        "wires": [
+            [
+                "3fe7a5aae088cc0a"
+            ]
+        ]
+    },
+    {
+        "id": "3fe7a5aae088cc0a",
+        "type": "function",
+        "z": "147f361498fbc825",
+        "name": "Setting ID",
+        "func": "global.set(\"ID\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "598b88404632f68f",
+        "type": "change",
+        "z": "147f361498fbc825",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "childpath",
+                "pt": "msg",
+                "to": "topic",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 580,
+        "wires": [
+            [
+                "4c089c3aac7125d4"
+            ]
+        ]
+    },
+    {
+        "id": "560151c4301dbb66",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-contrib-remote": "2.0.3",
+            "node-red-contrib-firebase": "1.1.1"
+        }
+    }
+]
